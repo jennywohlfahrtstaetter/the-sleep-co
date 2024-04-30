@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ------- TEMPORARY styles for structural html (REMOVE later) --------- */
+* {
+    padding: 0.5rem;
+    border: 1px solid rgb(225,225,225);
+}
+
+body {
+    border: none;
+}
+
+html {
+    border: none;
+}
+
+/* --------------- image styles -------------- */
+.bg-image {
+    background-image: url('/images/the-sleep-co-4.jpg');
+    background-size: cover;
+    min-height: 20vh;
+}
+
+/* --------------- universal styles and utility classes -------------- */
+
+.padded { padding: 5%;}
+.padded-sm { padding: 1rem;}
+
+.bg-dark { 
+    background-color: #192B37;
+    color: white;
+}
