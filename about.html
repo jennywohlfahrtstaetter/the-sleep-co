@@ -23,13 +23,18 @@
 
 <!------ THis is the BODY (all content) -------------------------------------->
 <body>
-
-    <nav>
-        <a href="/index.html"> Home</a>
-        <a href="/about.html"> About</a>
-        <a href="/contact.html"> Contact</a>
-        
-    </nav>
+    <div class="grid-middle nav">
+        <div class="col-4">
+            <a href="/index.html">
+              <h1>The Sleep Co</h1>
+            </a>
+          </div>
+        <nav class="col-8 right">
+            <a href="/index.html" class="noborder"> Home</a>
+            <a href="/about.html" class="noborder"> About</a>
+            <a href="/contact.html" class="noborder"> Contact</a>
+        </nav>
+    </div>
 
     <!------------------ Header Banner ------------------>
     <header class="padded grid text-center tall-100">
@@ -40,6 +45,27 @@
     </header>
 </body>
 </html>
+
+<!---------------- About Us Section ---------------------->
+<section class="grid">
+    <div class="padded col-6-middle"> 
+        <div>
+        <h2> get to know the<span class="featured-text"> team</span> </h2>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero voluptatem cum facere fugiat architecto perferendis ut mollitia, ipsam assumenda quidem dignissimos incidunt nobis quae tempore?</p>
+        <p> Est esse ipsam quas distinctio, exercitationem aliquid sint incidunt deserunt error qui quia earum. Alias aperiam, possimus dicta consequatur optio vel sequi!</p>
+    </div>
+    </div>
+    <div class="bg-image bg-bed col-6 tall-70"> 
+        <!-- background image bed -->
+    </div>
+    <div class="bg-image bg-dog col-6 tall-70"> 
+        <!-- background image mops sleeping -->
+    </div>
+    <div class="padded -col-6-middle"> 
+        <h2> always at <span class="featured-text">your</span> service</h2>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga libero dignissimos in, dolore ipsam quia maxime tenetur, neque laudantium eius maiores distinctio perspiciatis illum. Quis saepe quibusdam possimus accusamus asperiores. </p>
+    </div>
+</section>
 
 <!------------------------ footer -------------------------->
 <footer class="padded grid-spaceBetween bg-dark"> 
