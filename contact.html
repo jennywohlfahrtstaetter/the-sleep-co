@@ -23,34 +23,95 @@
 
 <!------ THis is the BODY (all content) -------------------------------------->
 <body>
-    <div class="grid-middle nav">
-        <div class="col-4">
-            <a href="/index.html">
-              <h1>The Sleep Co</h1>
-            </a>
-          </div>
-        <nav class="col-8 right">
-            <a href="/index.html" class="noborder"> Home</a>
-            <a href="/about.html" class="noborder"> About</a>
-            <a href="/contact.html" class="noborder"> Contact</a>
-        </nav>
-    </div>
-<!------------------ Header Banner ------------------>
-    <header class="padded grid text-center tall-100">
-        <div class="col-12-middle">
-            <h3 class="font-weight-bold"> <span class="featured-text"> contact</span> us </h3>
-            <h1 class="font-weight-light"> the ultimate mattress solution </h1>
+    
+    <!------------------ Header Banner ------------------>
+        <header class="padded grid text-center tall-100">
+            <div class="col-12 grid header-nav">
+                <div class="col-4">
+                    <a href="/index.html">
+                      <h1>The Sleep Co</h1>
+                    </a>
+                </div>
+                <nav class="col-8">
+                    <a href="/index.html" class="noborder"> Home</a>
+                    <a href="/about.html" class="noborder"> About</a>
+                    <a href="/products.html" class="noborder"> Products</a>
+                    <a href="/contact.html" class="noborder"> Contact</a>
+                </nav>
+            </div>
+    
+            <div class="col-12-middle">
+                <h3 class="font-weight-bold"> <span class="featured-text"> contact</span> us today </h3>
+                <h1 class="font-weight-light"> one call away from a perfect night sleep </h1>
+            </div>
+        </header>
+
+<!------------------ Contact Form ------------------>
+        <!-- intro -->
+    <section class="grid bg-dark white-text padded">
+        <div class="col-6 padded"> 
+            <h2><span class="featured-text"> why</span> wait ?</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit porro aliquid velit quia ratione repellat provident? Dignissimos, sed molestiae commodi ex harum eum nesciunt dolorem, culpa enim exercitationem omnis eligendi?</p>
         </div>
-    </header>
+
+        <!-- form -->
+        <div class="col-6 padded"> 
+            <form action="#">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="_replyto" placeholder="Your Email">
+                <textarea name="message" id="message" placeholder="Tell us what you want..."></textarea>
+                <button class="button" type="submit"> Submit</button>
 
 
-    <!---------------- Contact us Banner  --------------------------->
-<section class="padded text-center bg-image bg-pillow tall-70 grid">
-    <div class="col-12-middle">
-        <h3 class="text-lg font-weight-bold"> 
-            <span class="text-sm font-weight-normal"> Reach us directly </span> 
-            <br> 04 5454 5555 
-        </h3>
+            </form>
+        </div>
+
+
+    </section>
+
+
+<!---------------- Gallery  --------------------------->
+ <section class="grid padded">
+    <div class="padded -col-6-middle"> 
+            <h2> so <span class="featured-text">soft</span> you'll melt</h2>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga libero dignissimos in, dolore ipsam quia maxime tenetur, neque laudantium eius maiores distinctio perspiciatis illum. Quis saepe quibusdam possimus accusamus asperiores. </p>
+    </div>
+    <div class="bg-image bg-dog col-6 tall-70"> 
+    </div>
+</section>
+
+
+<!---------------- Feature Icon Grid ---------------------->
+<section class="padded grid-center bg-featured">
+    <div class="padded-sm col-12 text-center"> 
+        <h2> Need help deciding?</h2>
+    </div>
+    <div class="padded-sm col-3"> 
+        <i class="fa-solid fa-cloud icon"></i>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quibusdam molestiae animi aliqua.</p>
+    </div>
+    <div class="padded-sm col-3"> 
+        <i class="fa-solid fa-cloud icon"></i>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam sapiente hic itaque laudantium harum mollitia.</p>
+    </div>
+    <div class="padded-sm col-3"> 
+        <i class="fa-solid fa-cloud icon"></i>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda amet a beatae enim, esse sed doloribus voluptatum?</p>
+    </div>
+</section>
+
+<!---------------- Testimonial   --------------------------->
+<section class="padded-lg grid">
+    <div class="col-1 text-right"> 
+        <span class="quote-icon">“</span>
+    </div>
+    <div class="col-10 text-center"> 
+        <p class="text-md font-weight-light"> I've never experienced sleep like this. Omg I really love this mattress I want to buy one for every member of the family </p>
+        <p class="subtitle"> - A very happy customer </p>
+    </div>
+    <div class="col-1"> 
+         <!-- text-left not needed as it is the default value  -->
+        <span class="quote-icon">”</span>
     </div>
 </section>
 
@@ -68,3 +129,6 @@
         <p> <strong> Instagram:</strong> <a href="https.instagram.com/thesleepco">@thesleepco</a> </p>
     </div>
 </footer>
+
+</body>
+</html>
