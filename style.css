@@ -12,11 +12,7 @@ navy: #192B37 */
 [class*="col-"] {
     padding: 0;
 }
-/* --------------- image styles -------------- */
-.bg-image {
-    background-size: cover;
-    min-height: 20vh;
-}
+
 
 /* --------------- universal styles and utility classes -------------- */
 body {
@@ -283,4 +279,24 @@ input,
 textarea {
     width: 100%;
     display: block;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    font-family: inherit;
+    font-size: 0.9rem;
+    border: 2px solid transparent; /* to avoid jumping when hovering */
+    outline: none; /* removes blue line that browser sets by default around the box */
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid #FFBE00;
+}
+
+.button {
+    padding: 0.5rem 2rem;
+    background-color: #FFBE00;
+    appearance: none; 
+    /* set appearance to none (targets 3d style of the button, makes appearance more consistent across browsers */
+    border: 2px solid #FFBE00;
+    color: inherit;
 }
